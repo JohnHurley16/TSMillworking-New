@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "title": "Office Setup",
+    "category": "CLOSET",
+    "image": "gallery/1.jpg",
+    "groups": ["all", "closet", "cabinetry"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reception Desk",
+    "category": "SOLID SURFACE",
+    "image": "gallery/2.jpg",
+    "groups": ["all", "solid surface"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Engraved Stools",
+    "category": "CNC",
+    "image": "gallery/3.jpg",
+    "groups": ["all", "cnc"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Reception Desk",
+    "category": "SOLID SURFACE",
+    "image": "gallery/4.jpg",
+    "groups": ["all", "solid surface"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Outdoor Kitchen",
+    "category": "LAMINATE",
+    "image": "gallery/5.jpg",
+    "groups": ["all", "laminate", "cabinetry"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Large Reception Area",
+    "category": "GENERAL",
+    "image": "gallery/7.jpg",
+    "groups": ["all", "solid surface"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Kitchen Renovation",
+    "category": "GENERAL",
+    "image": "gallery/8.jpg",
+    "groups": ["all", "cabinetry", "solid surface"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Closet",
+    "category": "CLOSET",
+    "image": "gallery/9.jpg",
+    "groups": ["all", "closet"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+]

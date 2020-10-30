@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "icon": "facebook",
+    "portfolio": 1,
+    "footer": 1,
+    "link": "!#"
+  },
+  {
+    "id": 4,
+    "icon": "instagram",
+    "portfolio": 0,
+    "footer": 1,
+    "link": "!#"
+  }
+]

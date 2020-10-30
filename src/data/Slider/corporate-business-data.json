@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "title": "TS Millworking",
+  "tagline": "WELCOME TO",
+  "text": "Building Custom Cabinetry and Countertops since 1995",
+  "image": "background/bg2.jpg",
+  "buttons": [
+    {
+      "id": 1,
+      "text": "Request a Quote",
+      "link": "!#",
+      "type": "btn-circle btn-color"
+    }
+  ]
+}

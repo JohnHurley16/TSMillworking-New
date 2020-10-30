@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "image": "Brands/1.png",
+    "name": "client-1"
+  },
+  {
+    "id": 2,
+    "image": "Brands/2.jpg",
+    "name": "client2"
+  },
+  {
+    "id": 3,
+    "image": "Brands/3.jpg",
+    "name": "client-3"
+  },
+  {
+    "id": 4,
+    "image": "Brands/4.jpg",
+    "name": "client-4"
+  },
+  {
+    "id": 5,
+    "image": "Brands/5.png",
+    "name": "client-5"
+  },
+  {
+    "id": 6,
+    "image": "Brands/6.png",
+    "name": "client-6"
+  },
+  {
+    "id": 7,
+    "image": "Brands/7.png",
+    "name": "client-7"
+  },
+  {
+    "id": 8,
+    "image": "Brands/8.png",
+    "name": "client-8"
+  },
+  {
+    "id": 9,
+    "image": "Brands/9.png",
+    "name": "client-9"
+  },
+  {
+    "id": 10,
+    "image": "Brands/10.jpeg",
+    "name": "client-10"
+  },
+  {
+    "id": 11,
+    "image": "Brands/11.jpg",
+    "name": "client-11"
+  }
+]

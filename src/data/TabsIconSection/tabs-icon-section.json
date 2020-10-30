@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "icon": "fix-tools",
+    "title": "COUNTERTOPS",
+    "subtitle1": "HIGH PRESSURE",
+    "text1": "High pressure laminate countertops are affordable and very easy to maintain.  They come in a wide variety of colors and styles for whatever design needs you may have.  We offer all the big name brands including Formica, Wilsonart and Arborite and can use whatever laminate is required to meet your needs.",
+    "subtitle2": "SOLID SURFACE",
+    "text2": "Solid Surface is a low maitenance, bacteria resistant and non-porous material which can be finished in a variety of styles and colors.  We offer brands including Corian, Meganite, Wilsonart solid surface, Formica solid surface, and livingstone."
+  },
+  {
+    "id": 2,
+    "icon": "saw",
+    "title": "CASEWORK",
+    "subtitle1": "Melamine",
+    "text1": "Melamine is a pressboard coated with highly resistant and durable resin which is very popular in European styled kitchen cabinetry, medical casework as well as office furniture.  Melamine pressboard manufacturing is a very competitive market meaning finish quality, durability and afordability are always improving. We have access to many suppliers of board including Uniboard, Tafisa, and a variety of other materials such as Lux, Cleaf, and Nature +.  We offer Blum soft-close hinges, Fulterer self close slides and the full line of Rev-A-Shelf products as well as a large variety of door styles."
+  },
+  {
+    "id": 3,
+    "icon": "help-robot",
+    "title": "CNC SERVICES",
+    "text1": "Our extensive in house CNC operation gives us the capability to offer even more custamization and design to our costomers.  With the use of CAD software we can turn woods, plastics, acrylics, some decorative metals and more into georgeous products!"
+  }
+]
