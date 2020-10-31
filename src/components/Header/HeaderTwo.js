@@ -6,7 +6,7 @@ import SocialNav from "../Navs/SocialNav";
 import MainLogo from "../MainLogo";
 import { Link } from "react-router-dom";
 
-const HeaderTwo = ({ social, scrollToSection }) => {
+const HeaderTwo = ({ social, scrollToSection, home_ref }) => {
   const [fixed, setFixed] = useState(false);
   const [collapse, setCollapse] = useState(false);
 
@@ -47,7 +47,7 @@ const HeaderTwo = ({ social, scrollToSection }) => {
           <AttributeNav>
             <SocialNav items={social} />
           </AttributeNav>
-          <MainLogo showMenu={showMenu} />
+          <MainLogo showMenu={showMenu} home_ref={home_ref} />
           <div
             className="navbar-collapse collapse"
             id="navbar-menu"
