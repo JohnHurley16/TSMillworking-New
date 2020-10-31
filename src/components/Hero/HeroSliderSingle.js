@@ -9,7 +9,7 @@ const HeroSliderSingle = forwardRef(({ home_data }, ref) => {
   const params = {
     loop: false,
   };
-  console.log(home_data)
+
   return (
     <section className="pt-0 pb-120" id="home" ref={ref}>
       <div className="slider-bg flexslider">

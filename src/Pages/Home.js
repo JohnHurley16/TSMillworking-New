@@ -42,7 +42,7 @@ const Home = () => {
     return (
         <ScrollToTop>
             <Loader>
-                <HeaderTwo scrollToSection={scrollToSection} />
+                <HeaderTwo scrollToSection={scrollToSection} home_ref={home} />
                 <HeroSliderSingle home_data={home_data} ref={home} />
                 <WhoWeAreThree ref={about} />
                 <Portfolio filter="true" columns="three" items="8" ref={gallery}>
