@@ -4,9 +4,7 @@ import Loader from "../components/Loader/Loader";
 import dataCorporate from "../data/Slider/corporate-business-data.json";
 import HeaderTwo from "../components/Header/HeaderTwo";
 import HeroSliderSingle from "../components/Hero/HeroSliderSingle";
-import Portfolio from "../components/Portfolio/Portfolio";
 import Welcome from "../components/HeadingSection/Welcome";
-import HeadingSection from '../components/HeadingSection/HeadingSection';
 import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 import ContactUs from "../components/ContactUs/ContactUs";
 import OurServices from "../components/OurServices/OurServices";
@@ -20,7 +18,6 @@ const Home = () => {
     const service = useRef();
     const about = useRef();
     const testimonials = useRef();
-    const gallery = useRef();
     const contact = useRef();
 
     const home_data = {
@@ -39,9 +36,6 @@ const Home = () => {
                 break;
             case "testimonials":
                 testimonials.current.scrollIntoView({ behavior: "smooth" });
-                break;
-            case "gallery":
-                gallery.current.scrollIntoView({ behavior: "smooth" });
                 break;
             case "contact":
                 contact.current.scrollIntoView({ behavior: "smooth" });
@@ -64,9 +58,6 @@ const Home = () => {
                     ref={service}
                 />
                 <TestimonialsOne title="Testimonials" tagline="Happy clients" ref={testimonials} />
-                <Portfolio filter="true" columns="three" items="8" layout="wide" ref={gallery}>
-                    <HeadingSection title={"Gallery"} />
-                </Portfolio>
                 <ContactUs ref={contact} />
                 <ClientsBrand />
                 <Footer />

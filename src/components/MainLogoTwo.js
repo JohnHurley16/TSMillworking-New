@@ -3,7 +3,7 @@ import logoWhite from "../assets/images/logo-white.png";
 import logoBlack from "../assets/images/logo-black.png";
 import Icofont from "react-icofont";
 
-const MainLogo = ({ collapse, showMenu, home_ref }) => {
+const MainLogoTwo = ({ collapse, showMenu, home_ref }) => {
   const ETScrollHome = () => {
     home_ref.current.scrollIntoView({ behavior: "smooth" })
   }
@@ -33,4 +33,4 @@ const MainLogo = ({ collapse, showMenu, home_ref }) => {
   )
 };
 
-export default MainLogo;
+export default MainLogoTwo;

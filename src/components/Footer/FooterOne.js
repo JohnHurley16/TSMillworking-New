@@ -4,9 +4,11 @@ import logoFooter from "../../assets/images/logo-white.png";
 
 const FooterOne = () => {
 
+
   const [hidden, setHidden] = useState(true);
   const handleScroll = useCallback(() => {
-    if (window.pageYOffset > 5000) {
+    const client_height = document.documentElement.clientHeight
+    if (window.pageYOffset + client_height + ((2 / 3) * client_height) > document.documentElement.scrollHeight) {
       setHidden(false);
     } else {
       setHidden(true);

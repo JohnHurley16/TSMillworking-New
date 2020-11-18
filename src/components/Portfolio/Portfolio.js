@@ -47,24 +47,9 @@ const Portfolio = forwardRef(
       setIsOpen(true);
     };
 
-    // useEffect(() => {
-    //   shuffleLib= new Shuffle(element.current, {
-    //     itemSelector: ".portfolio-item",
-    //   })
-    // }, []);
-
-    // componentDidUpdate() {
-    //   this.shuffle.resetItems();
-    // }
-
-    // componentWillUnmount() {
-    //   this.shuffle.destroy();
-    //   this.shuffle = null;
-    // }
-
     return (
       <section
-        className={"pb-0 " + (classAppend ? classAppend : "")}
+        className={(classAppend ? classAppend : "")}
         id="gallery"
         ref={ref}
       >

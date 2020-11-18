@@ -3,7 +3,7 @@ import Scrollspy from "react-scrollspy";
 import dataNav from "../../data/Navbar/nav-creativeone-data.json";
 import AttributeNav from "../Navs/AttributeNav";
 import SocialNav from "../Navs/SocialNav";
-import MainLogo from "../MainLogo";
+import MainLogo from "../MainLogoTwo";
 import { Link } from "react-router-dom";
 
 const HeaderTwo = ({ social, scrollToSection, home_ref }) => {
@@ -58,18 +58,26 @@ const HeaderTwo = ({ social, scrollToSection, home_ref }) => {
                 "home",
                 "about",
                 "testimonials",
-                "gallery",
                 "contact"
               ]}
               currentClassName="active"
               className="nav navbar-nav navbar-right nav-scrollspy-onepage"
               data-in="fadeInLeft"
             >
-              {dataNav.map((item) => (
+              {dataNav.filter((val) => val.link === "gallery" ? false : true).map((item) => (
                 <li className="scroll" key={item.id}>
                   <Link
                     to={item.link}
                     onClick={(e) => scrollToSection(e, item.link)}
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+              {dataNav.filter((val) => val.link === "gallery" ? true : false).map((item) => (
+                <li className="scroll" key={item.id}>
+                  <Link
+                    to={item.link}
                   >
                     {item.title}
                   </Link>
