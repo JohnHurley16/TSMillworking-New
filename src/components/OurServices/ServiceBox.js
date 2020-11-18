@@ -1,5 +1,4 @@
 import React from "react";
-import Icofont from "react-icofont";
 import ReactWOW from "react-wow";
 
 const ServiceBox = ({ icon, title, children }) => (
