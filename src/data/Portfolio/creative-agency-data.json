@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Office Setup",
-    "category": "CLOSET",
-    "image": "gallery/1.jpg",
-    "groups": ["all", "closet", "cabinetry"],
+    "title": "Reception Desk",
+    "category": "SOLID SURFACE",
+    "image": "gallery/2.jpeg",
+    "groups": ["all", "solid surface", "laminate"],
     "links": [
       {
         "id": 1,
@@ -20,10 +20,10 @@
   },
   {
     "id": 2,
-    "title": "Reception Desk",
-    "category": "SOLID SURFACE",
-    "image": "gallery/2.jpg",
-    "groups": ["all", "solid surface"],
+    "title": "Outdoor Kitchen",
+    "category": "CABINETRY",
+    "image": "gallery/5.jpeg",
+    "groups": ["all", "cabinetry"],
     "links": [
       {
         "id": 1,
@@ -39,10 +39,10 @@
   },
   {
     "id": 3,
-    "title": "Engraved Stools",
-    "category": "CNC",
-    "image": "gallery/3.jpg",
-    "groups": ["all", "cnc"],
+    "title": "Office Setup",
+    "category": "CABINETRY",
+    "image": "gallery/1.jpeg",
+    "groups": ["all", "cabinetry"],
     "links": [
       {
         "id": 1,
@@ -58,10 +58,10 @@
   },
   {
     "id": 4,
-    "title": "Reception Desk",
-    "category": "SOLID SURFACE",
-    "image": "gallery/4.jpg",
-    "groups": ["all", "solid surface"],
+    "title": "Engraved Stools",
+    "category": "CNC",
+    "image": "gallery/3.jpeg",
+    "groups": ["all", "cnc"],
     "links": [
       {
         "id": 1,
@@ -77,28 +77,9 @@
   },
   {
     "id": 5,
-    "title": "Outdoor Kitchen",
-    "category": "LAMINATE",
-    "image": "gallery/5.jpg",
-    "groups": ["all", "laminate", "cabinetry"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Large Reception Area",
-    "category": "GENERAL",
-    "image": "gallery/7.jpg",
+    "title": "Reception Desk",
+    "category": "ARCHITECTURAL MILLWORK",
+    "image": "gallery/4.jpeg",
     "groups": ["all", "solid surface"],
     "links": [
       {
@@ -114,11 +95,30 @@
     ]
   },
   {
+    "id": 6,
+    "title": "CNC Engraving",
+    "category": "ACNC",
+    "image": "gallery/6.jpeg",
+    "groups": ["all", "cnc"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
     "id": 7,
-    "title": "Kitchen Renovation",
-    "category": "GENERAL",
-    "image": "gallery/8.jpg",
-    "groups": ["all", "cabinetry", "solid surface"],
+    "title": "Large Reception Area",
+    "category": "ARCHITECTURAL MILLWORK",
+    "image": "gallery/7.jpeg",
+    "groups": ["all", "solid surface"],
     "links": [
       {
         "id": 1,
@@ -134,9 +134,28 @@
   },
   {
     "id": 8,
+    "title": "Kitchen Renovation",
+    "category": "GENERAL",
+    "image": "gallery/8.jpeg",
+    "groups": ["all", "cabinetry", "solid surface"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 9,
     "title": "Closet",
     "category": "CLOSET",
-    "image": "gallery/9.jpg",
+    "image": "gallery/9.jpeg",
     "groups": ["all", "closet"],
     "links": [
       {
