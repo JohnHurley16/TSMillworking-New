@@ -57,6 +57,7 @@ const HeaderTwo = ({ social, scrollToSection, home_ref }) => {
               items={[
                 "home",
                 "about",
+                "testimonials",
                 "gallery",
                 "contact"
               ]}

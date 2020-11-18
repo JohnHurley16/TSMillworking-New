@@ -64,7 +64,7 @@ const Portfolio = forwardRef(
 
     return (
       <section
-        className={"pt-120 pb-120 " + (classAppend ? classAppend : "")}
+        className={"pb-0 " + (classAppend ? classAppend : "")}
         id="gallery"
         ref={ref}
       >
