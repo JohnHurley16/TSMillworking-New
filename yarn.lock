@@ -7506,6 +7506,13 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+netlify-build-plugin-speedcurve@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/netlify-build-plugin-speedcurve/-/netlify-build-plugin-speedcurve-2.0.0.tgz#e0e52342ef1abf89fba5ec30a05b5c677a3eb863"
+  integrity sha512-4NA1I9JMRu4ejaDthKq7z9/rGphEyHCITKzKlhYq2il9qr6FzGVIQzGO/oHbRV04JZmRBRnCPcFUciZyFucJzQ==
+  dependencies:
+    node-fetch "^2.6.0"
+
 next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
@@ -7531,6 +7538,11 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+node-fetch@^2.6.0:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@^0.10.0:
   version "0.10.0"

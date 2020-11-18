@@ -13,6 +13,7 @@
     "google-map-react": "^1.1.7",
     "html-react-parser": "^0.10.3",
     "lax.js": "^1.2.5",
+    "netlify-build-plugin-speedcurve": "^2.0.0",
     "rc-collapse": "^1.11.8",
     "react": "^16.13.1",
     "react-animated-css": "^1.2.1",
