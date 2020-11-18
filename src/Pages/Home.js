@@ -5,16 +5,21 @@ import dataCorporate from "../data/Slider/corporate-business-data.json";
 import HeaderTwo from "../components/Header/HeaderTwo";
 import HeroSliderSingle from "../components/Hero/HeroSliderSingle";
 import Portfolio from "../components/Portfolio/Portfolio";
-import HeadingSection from "../components/HeadingSection/Welcome";
+import Welcome from "../components/HeadingSection/Welcome";
+import HeadingSection from '../components/HeadingSection/HeadingSection';
 import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 import ContactUs from "../components/ContactUs/ContactUs";
 import OurServices from "../components/OurServices/OurServices";
 import serviceOneImg from "../assets/images/services.jpg";
+import TestimonialsOne from "../components/Testimonials/TestimonialsOne";
+import Footer from "../components/Footer/FooterOne"
+
 
 const Home = () => {
     const home = useRef();
     const service = useRef();
     const about = useRef();
+    const testimonials = useRef();
     const gallery = useRef();
     const contact = useRef();
 
@@ -32,6 +37,9 @@ const Home = () => {
             case "about":
                 about.current.scrollIntoView({ behavior: "smooth" });
                 break;
+            case "testimonials":
+                testimonials.current.scrollIntoView({ behavior: "smooth" });
+                break;
             case "gallery":
                 gallery.current.scrollIntoView({ behavior: "smooth" });
                 break;
@@ -46,20 +54,22 @@ const Home = () => {
             <Loader>
                 <HeaderTwo scrollToSection={scrollToSection} home_ref={home} />
                 <HeroSliderSingle home_data={home_data} ref={home} />
-                <HeadingSection title="Who We Are" tagline="Built For You" ref={about}>
+                <Welcome title="Who We Are" tagline="Built For You" ref={about}>
                     We are a family owned and operated millworking shop located in central New Jersey.  With over 20 years of experience under our belts we work hard to ensure that no product leaves our shop that we wouldn't put in our own homes.  We love to work hand in hand with our customers to give them an exceptional experience while we turn their vision into a reality!
-                </HeadingSection>
+                </Welcome>
                 <OurServices
                     title="What We Offer"
                     tagline="Custom Millworking done right"
                     serviceImg={serviceOneImg}
                     ref={service}
                 />
-                <Portfolio filter="true" columns="three" items="8" ref={gallery}>
+                <TestimonialsOne title="Testimonials" tagline="Happy clients" ref={testimonials} />
+                <Portfolio filter="true" columns="three" items="8" layout="wide" ref={gallery}>
                     <HeadingSection title={"Gallery"} />
                 </Portfolio>
                 <ContactUs ref={contact} />
                 <ClientsBrand />
+                <Footer />
             </Loader>
         </ScrollToTop>
     )

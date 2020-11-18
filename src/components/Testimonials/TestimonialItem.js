@@ -1,15 +1,14 @@
 import React from "react";
 
-const TestimonialItem = ({ avatar, name, role, children }) => (
+const TestimonialItem = ({ avatar, name, children }) => (
   <div className="testimonial-item">
     <div className="testimonial-content">
       <img
         className="img-responsive img-circle"
-        src={require("../../assets/images/" + avatar)}
+        src={avatar}
         alt="avatar-1"
       />
       <h5>{name}</h5>
-      <p>{role}</p>
       <h4>{children}</h4>
     </div>
   </div>
