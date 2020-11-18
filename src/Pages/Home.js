@@ -4,14 +4,16 @@ import Loader from "../components/Loader/Loader";
 import dataCorporate from "../data/Slider/corporate-business-data.json";
 import HeaderTwo from "../components/Header/HeaderTwo";
 import HeroSliderSingle from "../components/Hero/HeroSliderSingle";
-import WhoWeAreThree from "../components/WhoWeAre/WhoWeAreThree";
 import Portfolio from "../components/Portfolio/Portfolio";
-import HeadingSection from "../components/HeadingSection/HeadingSection";
+import HeadingSection from "../components/HeadingSection/Welcome";
 import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 import ContactUs from "../components/ContactUs/ContactUs";
+import OurServices from "../components/OurServices/OurServices";
+import serviceOneImg from "../assets/images/services.jpg";
 
 const Home = () => {
     const home = useRef();
+    const service = useRef();
     const about = useRef();
     const gallery = useRef();
     const contact = useRef();
@@ -44,7 +46,15 @@ const Home = () => {
             <Loader>
                 <HeaderTwo scrollToSection={scrollToSection} home_ref={home} />
                 <HeroSliderSingle home_data={home_data} ref={home} />
-                <WhoWeAreThree ref={about} />
+                <HeadingSection title="Who We Are" tagline="Built For You" ref={about}>
+                    We are a family owned and operated millworking shop located in central New Jersey.  With over 20 years of experience under our belts we work hard to ensure that no product leaves our shop that we wouldn't put in our own homes.  We love to work hand in hand with our customers to give them an exceptional experience while we turn their vision into a reality!
+                </HeadingSection>
+                <OurServices
+                    title="What We Offer"
+                    tagline="Custom Millworking done right"
+                    serviceImg={serviceOneImg}
+                    ref={service}
+                />
                 <Portfolio filter="true" columns="three" items="8" ref={gallery}>
                     <HeadingSection title={"Gallery"} />
                 </Portfolio>

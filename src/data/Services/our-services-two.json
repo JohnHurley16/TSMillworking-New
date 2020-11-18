@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "counter.png",
+    "title": "Laminate and Solid Surface Countertops",
+    "text": "We offer affordable and easy to maintain High Pressuer and Solid Surface countertops in a wide variety of styles and colors for whatever is required to meet your needs. "
+  },
+  {
+    "id": 2,
+    "icon": "cabinet.png",
+    "title": "Casework",
+    "text": "Our large selection of hardware and melamine pressboard are perfect for all kitchen cabinetry, shelving and office furniture."
+  },
+  {
+    "id": 3,
+    "icon": "robot.png",
+    "title": "CNC Services",
+    "text": "Our extensive in house CNC operation gives us the capability to offer even more custamization and design to our costomers.  With the use of CAD software we can turn woods, plastics, acrylics, some decorative metals and more into georgeous products!"
+  }
+]

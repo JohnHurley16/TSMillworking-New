@@ -11,7 +11,7 @@ const HeroSliderSingle = forwardRef(({ home_data }, ref) => {
   };
 
   return (
-    <section className="pt-0 pb-120" id="home" ref={ref}>
+    <section className="pt-0 pb-0" id="home" ref={ref}>
       <div className="slider-bg flexslider">
         <ul className="slides">
           <Swiper {...params}>
