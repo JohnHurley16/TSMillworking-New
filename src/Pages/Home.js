@@ -12,7 +12,6 @@ import serviceOneImg from "../assets/images/services.jpg";
 import TestimonialsOne from "../components/Testimonials/TestimonialsOne";
 import Footer from "../components/Footer/FooterOne"
 
-
 const Home = () => {
     const home = useRef();
     const service = useRef();
@@ -43,6 +42,7 @@ const Home = () => {
             default:
         }
     };
+
     return (
         <ScrollToTop>
             <Loader>

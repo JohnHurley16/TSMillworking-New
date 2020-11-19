@@ -1,14 +1,12 @@
-import React, { useState, useEffect, forwardRef } from "react";
+import React, { forwardRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HeadingSection from "../HeadingSection/HeadingSection";
 import TestimonialItem from "./TestimonialItem";
 
-const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
-const placeID = "ChIJ0yRzMuGFwYkRBflpsg2KP3k";
 
-const API_URL = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeID}&fields=review&key=${API_KEY}`;
+const reviewData = JSON.parse(localStorage.getItem("DATA"))
 
 const TestimonialsOne = forwardRef(
   ({ title, tagline, font }, ref) => {
@@ -21,20 +19,6 @@ const TestimonialsOne = forwardRef(
       adaptiveHeight: true,
       className: "slick testimonial",
     };
-
-    const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-      loadData();
-    }, []);
-
-    const loadData = async () => {
-      await fetch(API_URL)
-        .then(response => response.json())
-        .then(data => setData(data.result.reviews))
-      setLoading(false)
-    }
 
     return (
       <section
@@ -55,20 +39,17 @@ const TestimonialsOne = forwardRef(
           </div>
           <div className="row">
             <div className="col-md-12">
-              {loading ?
-                <div className="scoda-pulse"></div>
-                :
-                <Slider {...settings}>
-                  {data.map((testimonial, i) => (
-                    <TestimonialItem
-                      avatar={testimonial.profile_photo_url}
-                      name={testimonial.author_name}
-                      key={i}
-                    >
-                      {testimonial.text}
-                    </TestimonialItem>
-                  ))}
-                </Slider>}
+              <Slider {...settings}>
+                {reviewData.map((testimonial, i) => (
+                  <TestimonialItem
+                    avatar={testimonial.profile_photo_url}
+                    name={testimonial.author_name}
+                    key={i}
+                  >
+                    {testimonial.text}
+                  </TestimonialItem>
+                ))}
+              </Slider>}
 
             </div>
           </div>
