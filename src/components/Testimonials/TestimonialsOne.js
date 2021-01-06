@@ -39,6 +39,7 @@ const TestimonialsOne = forwardRef(
           </div>
           <div className="row">
             <div className="col-md-12">
+
               <Slider {...settings}>
                 {reviewData.map((testimonial, i) => (
                   <TestimonialItem
@@ -49,7 +50,7 @@ const TestimonialsOne = forwardRef(
                     {testimonial.text}
                   </TestimonialItem>
                 ))}
-              </Slider>
+              </Slider>}
 
             </div>
           </div>
