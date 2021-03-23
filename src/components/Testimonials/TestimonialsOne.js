@@ -50,8 +50,7 @@ const TestimonialsOne = forwardRef(
                     {testimonial.text}
                   </TestimonialItem>
                 ))}
-              </Slider>}
-
+              </Slider>
             </div>
           </div>
         </div>
