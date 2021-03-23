@@ -19,7 +19,7 @@ const Home = () => {
         <ScrollToTop>
             <Loader>
                 <HeaderOne scrollToSection={scrollToSection} />
-                <Portfolio filter="true" columns="three" items="8" ref={gallery}>
+                <Portfolio filter="false" columns="three" items="8" ref={gallery}>
                     <HeadingSection title={"Gallery"} />
                 </Portfolio>
                 <Footer />
