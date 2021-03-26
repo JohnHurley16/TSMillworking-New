@@ -5,6 +5,7 @@ import HeaderOne from "../components/Header/HeaderOne";
 import Portfolio from "../components/Portfolio/Portfolio";
 import HeadingSection from '../components/HeadingSection/HeadingSection';
 import Footer from "../components/Footer/FooterOne"
+import ImageSlider from "../components/ImageSlider/ImageSlider"
 
 
 const Home = () => {
@@ -18,11 +19,7 @@ const Home = () => {
     return (
         <ScrollToTop>
             <Loader>
-                <HeaderOne scrollToSection={scrollToSection} />
-                <Portfolio filter="false" columns="three" items="8" ref={gallery}>
-                    <HeadingSection title={"Gallery"} />
-                </Portfolio>
-                <Footer />
+                <ImageSlider />
             </Loader>
         </ScrollToTop>
     )

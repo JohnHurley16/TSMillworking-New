@@ -10,12 +10,14 @@ import ContactUs from "../components/ContactUs/ContactUs";
 import OurServices from "../components/OurServices/OurServices";
 import serviceOneImg from "../assets/images/services.jpg";
 import TestimonialsOne from "../components/Testimonials/TestimonialsOne";
+import ImageSlider from "../components/ImageSlider/ImageSlider"
 import Footer from "../components/Footer/FooterOne"
 
 const Home = () => {
     const home = useRef();
     const service = useRef();
     const about = useRef();
+    const gallery = useRef();
     const testimonials = useRef();
     const contact = useRef();
 
@@ -35,6 +37,9 @@ const Home = () => {
                 break;
             case "testimonials":
                 testimonials.current.scrollIntoView({ behavior: "smooth" });
+                break;
+            case "gallery":
+                gallery.current.scrollIntoView({ behavior: "smooth" });
                 break;
             case "contact":
                 contact.current.scrollIntoView({ behavior: "smooth" });
@@ -57,6 +62,7 @@ const Home = () => {
                     serviceImg={serviceOneImg}
                     ref={service}
                 />
+                <ImageSlider ref={gallery} />
                 <TestimonialsOne title="Testimonials" tagline="Happy clients" ref={testimonials} />
                 <ContactUs ref={contact} />
                 <ClientsBrand />
