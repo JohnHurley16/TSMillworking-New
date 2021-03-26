@@ -2,6 +2,7 @@ import React, { useEffect, useState, forwardRef } from "react";
 import Slider from "react-slick";
 import ImageItem from "./ImageItem"
 import HeadingSection from "../HeadingSection/HeadingSection";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const ImageSlider = forwardRef(({ _data }, ref) => {
   const [data, setData] = useState([]);
@@ -56,29 +57,31 @@ const ImageSlider = forwardRef(({ _data }, ref) => {
   };
 
   return (
-    <section ref={ref}>
-      <div className="dn-bg-lines">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div className="container">
-        <div className="row">
-          <HeadingSection title="Recent Projects" />
+    <SRLWrapper>
+      <section ref={ref}>
+        <div className="dn-bg-lines">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div className="row mt-50">
-          <div className="col-md-12 remove-padding">
-            <Slider {...settings}>
-              {data.map((post, key) => (
-                <ImageItem post={post} key={key} />
-              ))}
-            </Slider>
+        <div className="container">
+          <div className="row">
+            <HeadingSection title="Recent Projects" tagline="Look what we can do for you" />
+          </div>
+          <div className="row mt-50">
+            <div className="col-md-12 remove-padding">
+              <Slider {...settings}>
+                {data.map((post, key) => (
+                  <ImageItem post={post} key={key} />
+                ))}
+              </Slider>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </SRLWrapper>
   );
 })
 
